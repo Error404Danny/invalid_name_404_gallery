@@ -1,0 +1,43 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+body{
+    background-image:url(images/static.jpg);
+}
+#oi{
+    position: absolute;
+    display: inline-block;
+    left:50%;
+    top:10%;
+    transform:translate(-50%,-50%);
+    z-index: -1;
+}
+#space{
+    height: 17vh;
+    width: 100vw;
+    display: inline-block;
+}
+#container{
+    position: relative;
+    height: 50px;
+    width: 100vw;
+    top:50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#gallery{
+    display: inline-block;
+    padding: 10px;
+    width: 145px;
+    height:25px;
+    
+}
+#about{
+    padding: 10px;
+    width: 125px;
+    height:25px;
+    
+}
