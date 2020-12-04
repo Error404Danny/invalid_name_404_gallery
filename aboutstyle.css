@@ -8,11 +8,15 @@ html{
     top:50%;
     transform:translate(-50%,-50%);
     z-index: -1;
-    height: 75%;
+    height: 65%;
     background-size: contain;
     contain: content;
+    padding:25px;
+    margin:20px;
 }
 #about{
+    width:95vw;
+    padding:20px;
     color:white;
     position: relative;
     display: inline-block;
@@ -20,4 +24,33 @@ html{
     top:50%;
     transform:translate(-50%,-50%);
     z-index: -1;
+
+}
+#intro{
+    color:white;
+    position: relative;
+    display: inline-block;
+    left:20%;
+    top:80%;
+    transform:translate(-50%,-50%);
+    z-index: -1;
+
+}
+#nextintro{
+    color:white;
+    position: relative;
+    display: inline-block;
+    left:18%;
+    top:85%;
+    transform:translate(-50%,-50%);
+    z-index: -1;
+}
+#text{
+    position: absolute;
+    display: flexbox;
+    top: 80%;
+    left: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
 }
