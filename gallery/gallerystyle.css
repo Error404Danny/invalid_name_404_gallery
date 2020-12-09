@@ -1,0 +1,40 @@
+body{
+    background-image: url(../images/static.jpg);
+}
+#maintitle{
+    width: 100vw;
+    height: 200px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    color: blanchedalmond;
+}
+#gallery{
+ width: 100vw;
+ height: 100vh;
+ background-color: red;
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-self: flex-start;
+ background-size:contain;
+ background-size:cover;
+}
+#box{
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    margin: 20px; 
+    display: inline-block;
+    background-size:contain;
+    background-size:cover;
+    contain: content;
+}
+.test{
+    background: url(../images/old_skyline_old.jpg);
+    background-size: contain; 
+    width: 90%;
+    height:100%;
+    background-repeat: no-repeat;
+}
