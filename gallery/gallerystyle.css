@@ -1,13 +1,16 @@
 body{
     background-image: url(../images/static.jpg);
 }
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
 #maintitle{
     width: 100vw;
-    height: 200px;
+    height: 50%;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    font-size: 50px;
+    font-size: 30px;
     color: blanchedalmond;
 }
 #container{
@@ -15,35 +18,24 @@ body{
  height: 100vh;
  background-color: red;
  display: inline-flex;
- flex-direction: row;
+ flex-direction: column;
  justify-content: space-evenly;
  align-self: center;
  background-size:contain;
  background-size:cover;
 }
-}
+
 #gallery{
  width: 100vw;
- height: 100vh;
+ height: 20vh;
  background-color: red;
- display: inline-flex;
- flex-direction: column;
- justify-content: flex-start;
- align-self: flex-start;
+ display: inline-flex , inline-block;
+ flex-direction: row;
+ justify-content: space-between;
+ align-self: center;
  background-size:contain;
  background-size:cover;
 }
-#gallery2{
-    width: 100vw;
-    height: 100vh;
-    background-color: red;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-self: flex-start;
-    background-size:contain;
-    background-size:cover;
-   }
 #box{
     width: 40vw;
     height: 70vh;
@@ -55,34 +47,22 @@ body{
     contain: content;
 }
 .test{
-    position: relative;
-    background: url(../images/old_skyline_old.jpg);
-    background-size: contain; 
-    width: 110%;
-    height:110%;
+    width: 50vw;
+    height: 50%;
+    background-image: url(../images/old_skyline_old.jpg);
+    background-size: contain, cover;
     background-repeat: no-repeat;
 }
 .test:hover{
-    background: url(../images/old_skyline_new.jpg);
-    background-size: contain; 
-    width: 110%;
-    height:110%;
-    background-repeat: no-repeat;
-    position: relative;
+    background-image:url(../images/old_skyline_new.jpg);
 }
 .test2{
-    position: relative;
-    background: url(../images/sunset_flag_old.jpg);
-    background-size: contain; 
-    width: 110%;
-    height:110%;
+    width: 50vw;
+    height: 50vh;
+    background-image: url(../images/b&w_alley_old.jpg);
+    background-size: contain, cover;
     background-repeat: no-repeat;
 }
 .test2:hover{
-    background: url(../images/sunset_flag_new.jpg);
-    background-size: contain; 
-    width: 110%;
-    height:110%;
-    background-repeat: no-repeat;
-    position: relative;
+    background-image: url(../images/b&w_alley_new.jpg);;
 }
