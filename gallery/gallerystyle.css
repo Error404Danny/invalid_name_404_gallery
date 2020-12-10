@@ -16,7 +16,7 @@ h1{
 #container{
  width: 100vw;
  height: 100vh;
- background-color: red;
+ 
  display: inline-flex;
  flex-direction: column;
  justify-content: space-evenly;
@@ -28,7 +28,7 @@ h1{
 #gallery{
  width: 100vw;
  height: 20vh;
- background-color: red;
+
  display: inline-flex , inline-block;
  flex-direction: row;
  justify-content: space-between;
