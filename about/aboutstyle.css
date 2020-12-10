@@ -14,6 +14,12 @@ html{
     padding:25px;
     margin:20px;
 }
+#art{
+    display: inline-flex;
+}
+#home{
+    display: inline-flex;
+}
 #about{
     width:95vw;
     padding:20px;
@@ -37,21 +43,33 @@ html{
     z-index: -1;
 
 }
-#nextintro{
+#intro2{
     color:white;
     position: relative;
-    display: inline-block;
+    display: block;
     left:18%;
     top:85%;
     transform:translate(-50%,-50%);
+    opacity: .5;
+    z-index: -1;
+}
+#intro3{
+    color:white;
+    position: relative;
+    display: block;
+    left:18%;
+    top:85%;
+    transform:translate(-50%,-50%);
+    opacity: .5;
     z-index: -1;
 }
 #text{
     position: absolute;
-    display: flexbox;
+    display: inline-flexbox;
     top: 80%;
     left: 50%;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
+
 }

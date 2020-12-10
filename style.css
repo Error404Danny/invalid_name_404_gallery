@@ -20,26 +20,27 @@ body{
     width: 100vw;
     display: inline-block;
 }
-#container{
+.linkcontainer{
     position: relative;
     height: 50px;
     width: 100vw;
     top:50%;
-    display: flex;
+    display: flexbox;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    color: ghostwhite;
 }
-#gallery{
+.gallery{
     display: inline-block;
     padding: 10px;
     width: 145px;
     height:25px;
-    
+    color: ghostwhite;
 }
-#about{
+.about{
     padding: 10px;
     width: 125px;
     height:25px;
-    
+    color: ghostwhite;
 }
