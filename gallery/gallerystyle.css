@@ -4,6 +4,17 @@ body{
 h1{
     font-family: Arial, Helvetica, sans-serif;
 }
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    width: 100vw;
+    height: 50%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    color: whitesmoke;
+}
 #maintitle{
     width: 100vw;
     height: 50%;
@@ -15,8 +26,7 @@ h1{
 }
 #container{
  width: 100vw;
- height: 100vh;
- 
+ padding: 30px;
  display: inline-flex;
  flex-direction: column;
  justify-content: space-evenly;
@@ -24,21 +34,22 @@ h1{
  background-size:contain;
  background-size:cover;
 }
-
+h1{
+    color: whitesmoke;
+}
 #gallery{
+position: relative;
  width: 100vw;
- height: 20vh;
-
  display: inline-flex , inline-block;
  flex-direction: row;
- justify-content: space-between;
+ justify-content: space-evenly;
  align-self: center;
  background-size:contain;
  background-size:cover;
 }
 #box{
     width: 40vw;
-    height: 70vh;
+    height: 75vh;
     padding: 20px;
     margin: 20px; 
     display: inline-block;
@@ -58,11 +69,54 @@ h1{
 }
 .test2{
     width: 50vw;
-    height: 50vh;
-    background-image: url(../images/b&w_alley_old.jpg);
+    height: 50%;
+    background-image: url(../images/b&w_power_old.jpg);
     background-size: contain, cover;
     background-repeat: no-repeat;
 }
 .test2:hover{
-    background-image: url(../images/b&w_alley_new.jpg);;
+    background-image: url(../images/b&w_power_new.jpg);
+}
+.test3{
+    width: 50vw;
+    height: 50vh;
+    background-image: url(../images/us_flag_old.jpg);
+    background-size: contain;
+    background-image: cover;
+    background-repeat: no-repeat;
+}
+.test3:hover{
+    background-image: url(../images/us_flag_new.jpg);
+}
+.test4{
+    width: 50vw;
+    height: 50vh;
+    background-image: url(../images/b&w_alley_old.jpg);
+    background-size: contain;
+    background-image: cover;
+    background-repeat: no-repeat;
+}   
+.test4:hover{
+    background-image: url(../images/b&w_alley_new.jpg);
+}
+.test5{
+    width: 50vw;
+    height: 50vh;
+    background-image: url(../images/b&w_lamp_old.jpg);
+    background-size: contain;
+    background-image: cover;
+    background-repeat: no-repeat;
+}   
+.test5:hover{
+    background-image: url(../images/b&w_lamp_new.jpg);
+}.test6{
+    width: 50vw;
+    height: 50vh;
+    background-image: url(../images/purple_alley_old.jpg);
+    background-size: contain;
+    background-image: cover;
+    background-repeat: no-repeat;
+}   
+.test6:hover{
+    background-image: url(../images/purple_alley_new.jpg);
 }
