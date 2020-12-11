@@ -177,4 +177,26 @@ position: relative;
 .test10:hover{
     background-image: url(../images/sunset_flag_new.jpg);
 }
+.test11{
+    width: 45vw;
+    height: 50vh;
+    background-image: url(../images/skyline_grainy_old.jpg);
+    background-size: contain;
+    background-image: cover;
+    background-repeat: no-repeat;
+}   
+.test11:hover{
+    background-image: url(../images/skyline_grainy_new.jpg);
+}
+.test12{
+    width: 45vw;
+    height: 50vh;
+    background-image: url(../images/skyline_sunset_old.jpg);
+    background-size: contain;
+    background-image: cover;
+    background-repeat: no-repeat;
+}   
+.test12:hover{
+    background-image: url(../images/skyline_sunset_new.jpg);
+}
 
