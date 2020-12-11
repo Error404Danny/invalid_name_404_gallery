@@ -133,3 +133,48 @@ position: relative;
 .test6:hover{
     background-image: url(../images/purple_alley_new.jpg);
 }
+.test7{
+    width: 50vw;
+    height: 50vh;
+    background-image: url(../images/beach_sunset_old.jpg);
+    background-size: contain;
+    background-image: cover;
+    background-repeat: no-repeat;
+}   
+.test7:hover{
+    background-image: url(../images/beach_sunset_new.jpg);
+}
+.test8{
+    width: 45vw;
+    height: 50vh;
+    background-image: url(../images/dark_building_old.jpg);
+    background-size: contain;
+    background-image: cover;
+    background-repeat: no-repeat;
+}   
+.test8:hover{
+    background-image: url(../images/dark_building_new.jpg);
+}
+.test9{
+    width: 45vw;
+    height: 50vh;
+    background-image: url(../images/signal_old.jpg);
+    background-size: contain;
+    background-image: cover;
+    background-repeat: no-repeat;
+}   
+.test9:hover{
+    background-image: url(../images/signal_new.jpg);
+}
+.test10{
+    width: 45vw;
+    height: 50vh;
+    background-image: url(../images/sunset_flag_old.jpg);
+    background-size: contain;
+    background-image: cover;
+    background-repeat: no-repeat;
+}   
+.test10:hover{
+    background-image: url(../images/sunset_flag_new.jpg);
+}
+
